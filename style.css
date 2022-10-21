@@ -140,6 +140,7 @@
 .advantage {
   background-color: #5e68e7;
   padding: 73px 150px;
+  margin-bottom: 146px;
 }
 .title {
   font-family: "Gilroy";
@@ -211,6 +212,98 @@
   color: #ffffff;
 }
 /* advantages end */
+
+/* group start */
+/* .group {
+  padding: 0 183px 0 183px;
+} */
+.klasses {
+  text-align: center;
+}
+.klasses p {
+  margin-top: -30px;
+  margin-bottom: 87px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+}
+.all-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 85px;
+  row-gap: 55px;
+  justify-content: center;
+}
+.group_card {
+  background: #5855e7;
+  box-shadow: 0px 0px 35px rgba(17, 17, 17, 0.25);
+  border-radius: 15px;
+  width: 301px;
+  height: 530px;
+  text-align: center;
+}
+.group_img {
+  margin: 19px 19px 15px 17px;
+}
+.group_number {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #fafbfd;
+  margin: auto;
+}
+.group_age {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 15px auto 20px auto;
+}
+.group_p {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 251px;
+  height: 63px;
+  margin: auto;
+}
+.sign {
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6347eb;
+  width: 147px;
+  height: 32px;
+  border: none;
+  margin: 30px 76px 33px 76px;
+}
+.sign:hover {
+  background: #5855e7;
+  color: #ffffff;
+}
+/* group end */
+
 
 /* @media (max-width: 412px) {
   .about {
