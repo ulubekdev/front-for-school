@@ -451,19 +451,4 @@
   display: flex;
   justify-content: space-between;
 }
-/* .rec {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background: #A23AC1;
-} */
 /* contact end */
-/* @media (max-width: 412px) {
-  .about {
-    width: 412px;
-    padding: 26px 30px;
-  }
-  .flex {
-    flex-direction: column;
-  }
-} */
