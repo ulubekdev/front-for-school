@@ -452,3 +452,67 @@
   justify-content: space-between;
 }
 /* contact end */
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .navbar {
+    width: 375px;
+    height: 100px;
+  }
+  .nav-logo img {
+    width: 80px;
+    height: 57px;
+  }
+  .building {
+    width: 300px;
+    height: 276px;
+    margin: auto;
+  }
+  .building img {
+    width: 300px;
+    height: 276px;
+  }
+  .items {
+    display: none;
+  }
+  .svyaz {
+    display: none;
+  }
+  .boy {
+    display: none;
+  }
+  .header {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  .btn {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    width: 107px;
+    height: 32px;
+  }
+  .about {
+    display: inline;
+    text-align: center;
+  }
+  .contact-card {
+    margin: auto;
+    width: 375px;
+  }
+  .contacts {
+    display: none;
+  }
+  .contact_img {
+    display: none;
+  }
+  .input {
+    width: 285px;
+  }
+  #number {
+    width: 285px;
+  }
+}
